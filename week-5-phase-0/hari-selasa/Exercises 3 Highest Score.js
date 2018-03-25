@@ -34,28 +34,28 @@ function highestScore (students) {
   }
   
   // TEST CASE
-  // console.log(highestScore([
-  //   {
-  //     name: 'Dimitri',
-  //     score: 90,
-  //     class: 'foxes'
-  //   },
-  //   {
-  //     name: 'Alexei',
-  //     score: 85,
-  //     class: 'wolves'
-  //   },
-  //   {
-  //     name: 'Sergei',
-  //     score: 74,
-  //     class: 'foxes'
-  //   },
-  //   {
-  //     name: 'Anastasia',
-  //     score: 78,
-  //     class: 'wolves'
-  //   }
-  // ]));
+  console.log(highestScore([
+    {
+      name: 'Dimitri',
+      score: 90,
+      class: 'foxes'
+    },
+    {
+      name: 'Alexei',
+      score: 85,
+      class: 'wolves'
+    },
+    {
+      name: 'Sergei',
+      score: 74,
+      class: 'foxes'
+    },
+    {
+      name: 'Anastasia',
+      score: 78,
+      class: 'wolves'
+    }
+  ]));
   
   // {
   //   foxes: { name: 'Dimitri', score: 90 },
@@ -71,7 +71,7 @@ function highestScore (students) {
     },
     {
       name: 'Alisa',
-      score: 78,
+      score: 76,
       class: 'wolves'
     },
     {
@@ -91,11 +91,11 @@ function highestScore (students) {
     }
   ]));
   
-//   // {
-//   //   foxes: { name: 'Alexander', score: 100 },
-//   //   wolves: { name: 'Alisa', score: 76 },
-//   //   tigers: { name: 'Viktor', score: 80 }
-//   // }
+  // {
+  //   foxes: { name: 'Alexander', score: 100 },
+  //   wolves: { name: 'Alisa', score: 76 },
+  //   tigers: { name: 'Viktor', score: 80 }
+  // }
   
   
-//console.log(highestScore([])); //{}
+console.log(highestScore([])); //{}
